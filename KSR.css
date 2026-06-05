@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
-    scroll-behaviour:smooth;
+    scroll-behavior: smooth;
 }
 header{
     font-size: 24px; 
@@ -73,7 +73,7 @@ li a:hover{
     animation: fadeInUp 1s cubic-bezier(0.25, 1, 0.5, 1) forwards; 
 }
 .welcome:hover{
-    box-shadow: 0 10px 50px 0 rgb(255, 255, 255); 
+    box-shadow: 0 10px 50px 0 rgb(0, 0, 0); 
 }
 @keyframes fadeInUp {
   from {
@@ -157,7 +157,7 @@ p{
     border-radius: 16px;
 }
 .about_us:hover{
-    box-shadow: 0 10px 50px 0 rgb(255, 255, 255); 
+    box-shadow: 0 10px 50px 0 rgb(0, 0, 0); 
 }
 .house_image{
     display: flex;
@@ -194,7 +194,7 @@ p{
     border-radius: 16px;
 }
 .projects:hover{
-    box-shadow: 0 10px 50px 0 rgb(255, 255, 255); 
+    box-shadow: 0 10px 50px 0 rgb(0, 0, 0); 
 }
 .project_gallery{
     display: flex;
@@ -208,17 +208,11 @@ p{
     font-size: 24px;
     border-radius: 16px;   
 }
-.project_gallery:hover{
-    box-shadow: 0 10px 50px 0 rgb(255, 255, 255); 
-}
 .location{
     padding: 50px;
     border:1px solid black;
     margin:50px;
     border-radius: 16px;
-}
-.location:hover{
-    box-shadow: 0 10px 50px 0 rgb(255, 255, 255);
 } 
 .contact{
     align-items: center;
@@ -236,7 +230,7 @@ p{
        
 }
 .contact:hover{
-    box-shadow: 0 10px 50px 0 rgb(255, 255, 255);
+    box-shadow: 0 10px 50px 0 rgb(0, 0, 0);
 } 
 form{
     justify-content: center;
